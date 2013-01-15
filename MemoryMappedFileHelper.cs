@@ -1,21 +1,3 @@
-//===============================================================================
-// Microsoft Caching Application Block for .NET
-// http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnpag/html/CachingBlock.asp
-//
-// MemoryMappedFileHelper.cs
-// Memory mapped file helper class that provides the Win32 functions and the
-// conversion methods
-//
-//===============================================================================
-// Copyright (C) 2003 Microsoft Corporation
-// All rights reserved.
-// THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY
-// OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT
-// LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR
-// FITNESS FOR A PARTICULAR PURPOSE.
-//===============================================================================
-
-
 using System;
 using System.IO;
 using System.Reflection;
@@ -27,7 +9,7 @@ using System.Security.Permissions;
 using System.Security.Principal;
 using System.Security.AccessControl;
 
-namespace WebAstra.ServiceProcess.Marshaller.QuickIPC
+namespace QuickIPC
 {
 	#region Enumeration for Win32 macros
 

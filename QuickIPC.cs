@@ -5,9 +5,8 @@ using System.Threading;
 using System.Security.AccessControl;
 using System.Security.Principal;
 using System.Diagnostics;
-using WebAstra.Application.Diagnostics.Logging;
 
-namespace WebAstra.ServiceProcess.Marshaller.QuickIPC
+namespace QuickIPC
 {
     /// <summary>
     /// IPC event delegate
@@ -158,7 +157,7 @@ namespace WebAstra.ServiceProcess.Marshaller.QuickIPC
         {
             if (m_NamedEventHandle == null)
             {
-                EventLogger.WriteEntry("Application",
+                EventLog.WriteEntry("Application",
                                        string.Format(
                                            "IpcService::listenUsingNamedEventsAndMemoryMappedFiles: NULL event"),
                                        EventLogEntryType.Error);

@@ -1,11 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using WebAstra.Common;
 
-namespace WebAstra.ServiceProcess.Marshaller.QuickIPC
+namespace QuickIPC
 {
-    public class TextualEventArgs : WebAstraEventArgs
+    public class TextualEventArgs : EventArgs
     {
         private string m_Data;
         

@@ -1,21 +1,3 @@
-//===============================================================================
-// Microsoft Caching Application Block for .NET
-// http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnpag/html/CachingBlock.asp
-//
-// MemoryMappedFileStream.cs
-// This class provides methods to create, provide file access, write, read and
-// remove a memory mapped file from the store.
-//
-//===============================================================================
-// Copyright (C) 2003 Microsoft Corporation
-// All rights reserved.
-// THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY
-// OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT
-// LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR
-// FITNESS FOR A PARTICULAR PURPOSE.
-//===============================================================================
-
-
 using System;
 using System.IO;
 using System.Reflection;
@@ -25,7 +7,7 @@ using System.Text;
 using System.Runtime.InteropServices; 
 using System.Security.Permissions;
 
-namespace WebAstra.ServiceProcess.Marshaller.QuickIPC
+namespace QuickIPC
 {
 	/// <summary>
 	///	This class provides methods to create, provide file
